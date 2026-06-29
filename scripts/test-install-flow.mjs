@@ -29,7 +29,7 @@ try {
   const work = path.join(root, "work");
   for (const dir of [home, cache, work]) mkdirSync(dir, { recursive: true });
 
-  run("npx", ["-y", "skills", "add", source, "--skill", "vifu-cli"], {
+  run("npx", ["-y", "skills", "add", source, "--skill", "vifu-cli", "--yes"], {
     cwd: work,
     env: {
       HOME: home,
