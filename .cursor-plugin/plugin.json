@@ -1,0 +1,21 @@
+{
+  "name": "vifu",
+  "displayName": "Vifu",
+  "description": "Vifu agent skills for deploying AI-native games with the Vifu CLI.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Vifu Labs"
+  },
+  "homepage": "https://vifu.dev",
+  "repository": "https://github.com/vifu-labs/skills",
+  "license": "MIT",
+  "category": "Developer Tools",
+  "keywords": [
+    "vifu",
+    "cli",
+    "agent-skill",
+    "games",
+    "deployment"
+  ],
+  "skills": "./skills/"
+}
