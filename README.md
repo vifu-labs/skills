@@ -47,6 +47,7 @@ Validate the repository before opening a pull request:
 
 ```bash
 node scripts/validate-skills.mjs
+node scripts/test-install-flow.mjs
 ```
 
 See [agents.md](agents.md) for contribution rules.

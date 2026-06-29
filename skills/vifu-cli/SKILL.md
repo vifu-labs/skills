@@ -1,12 +1,6 @@
 ---
 name: vifu-cli
 description: Operate the Vifu CLI from coding agents. Use when the user asks to install or verify Vifu, deploy the current game directory, adapt an existing browser game for Vifu, run Vifu build/test checks, publish or share a Vifu game, or debug Vifu deploy errors.
-allowed-tools:
-  - Bash(vifu --help)
-  - Bash(vifu * --help)
-  - Bash(vifu deploy --dry-run)
-  - Bash(vifu manifest check)
-  - Bash(vifu build)
 ---
 
 # Vifu CLI

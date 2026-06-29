@@ -15,3 +15,8 @@ jobs:
         with:
           node-version: "22"
       - run: node scripts/validate-skills.mjs
+      - name: Test local skill install flow
+        run: node scripts/test-install-flow.mjs
+      - name: Test documented GitHub install flow
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: node scripts/test-install-flow.mjs vifu-labs/skills
